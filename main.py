@@ -18,6 +18,7 @@ BULLET_DAMAGE = 10
 ENEMY_HP = 100
 HIT_SCORE = 10
 KILL_SCORE = 100
+MOVEMENT_SPEED = 2
 
 class Bullet(arcade.Sprite):
     def __init__(self, position, velocity, damage):
@@ -75,7 +76,7 @@ class Window(arcade.Window):
         self.player = Player()
         self.score = 0
 
-        arcade.set_background_color(open_color.black)
+        arcade.set_background_color(open_color.gray)
         self.background = arcade.load_texture("assets/bg.png")
 
 
@@ -102,8 +103,9 @@ class Window(arcade.Window):
                      e.kill()
                      self.score = self.score + KILL_SCORE
                 if self.score == 500:
-                   time.sleep(1)
-                   sys.exit() 
+
+                    time.sleep(1)
+                    sys.exit() 
         pass
 
     def on_draw(self):
@@ -140,10 +142,6 @@ class Window(arcade.Window):
             self.player.LEFT = arcade.key.LEFT
         elif button == arcade.MOUSE_BUTTON_RIGHT:
             self.player.RIGHT = arcade.key.RIGHT
-        elif button == arcade.MOUSE_BUTTON_UP:
-            self.player.UP = arcade.key.UP
-        elif button == arcade.MOUSE_BUTTON_DOWN:
-            self.player.DOWN = arcade.key.DOWN
         pass
 
     def on_key_press(self, key, modifiers):
