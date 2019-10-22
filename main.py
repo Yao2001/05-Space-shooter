@@ -1,4 +1,4 @@
-import sys, logging, open_color, arcade
+import sys, logging, open_color, arcade, os
 
 #check to make sure we are running the right version of Python
 version = (3,7)
