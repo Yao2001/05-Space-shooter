@@ -1,0 +1,41 @@
+Name: Luca Dixie
+Date: 10/21/19
+Project: 05-Space-shooter
+Peer's repository: https://github.com/Yao2001/05-Space-Shooter.git
+
+
+
+What is something you learned by reviewing your peer's project?
+
+ The importance of making sure certain functions aren't missing.
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+ The program doesn't really work (at least for me), so I didn't see much to take from.
+
+What suggestions would you have for your peer to improve his/her code?
+
+ The main errors seem to be the program not being able to get open_color to work, and issues with "no value argument" for the window
+ variable and its attributes (width, height, title). I also had trouble getting these to work at first, but right now I can't
+ recall how I fixed these problems myself. (I did however fix a few other errors that were easy to solve)
+
+What could have been clearer or better commented?
+
+ Most of the code seems pretty clear.
+
+Was there anything in the code that was confusing to you? If so, what?
+
+ The errors the python terminal has given me are confusing, because while the code looks like it should work, these
+ errors say otherwise. 
+
+Does the repository contain an appropriate LICENSE?
+
+ Yes.
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+ Seems descriptive enough.
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+Even though it doesn't work for me, the idea of a rock shooter seems funny.
